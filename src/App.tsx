@@ -2,11 +2,12 @@ import { Inspector } from "./components/Inspector/Inspector.component";
 
 function App() {
   return (
-    <div className="flex justify-center items-center bg-black text-white h-screen">
-      <Inspector>
+    <Inspector>
+      <div className="flex justify-center items-center flex-col bg-black text-white h-screen">
         <h1 className="font-bold">@joabsena/layout-inspect</h1>
-      </Inspector>
-    </div>
+        <p className="mt-2">element</p>
+      </div>
+    </Inspector>
   );
 }
 
