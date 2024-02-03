@@ -1,6 +1,4 @@
-export function isDefined(margin: string) {
-  return !!parseInt(margin, 10);
-}
+import { isDefined } from "../../utils";
 
 export function hasMargin(node: HTMLElement) {
   const styles = window.getComputedStyle(node);
