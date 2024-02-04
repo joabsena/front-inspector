@@ -1,3 +1,4 @@
 export function transformIndexToPosition(index: number) {
-  return ["top", "right", "bottom", "left"][index];
+  const positions = ["top", "right", "bottom", "left"] as const;
+  return positions[index];
 }
